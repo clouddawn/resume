@@ -7,7 +7,7 @@ var option = {
         // shape: 'circle',
         indicator: [
             { name: '静态页面', max: 100},
-            { name: '编程基础', max: 100},
+            { name: '微信小程序', max: 100},
             { name: 'Vue 全家桶', max: 100},
             { name: '项目开发能力', max: 100},
             { name: '沟通能力', max: 100},
@@ -18,7 +18,7 @@ var option = {
         type: 'radar',
         data: [
             {
-                value: [100, 90, 80, 85, 70],
+                value: [100, 80, 90, 85, 80],
                 name: '能力指数'
             }
         ]
