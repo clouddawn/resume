@@ -32,7 +32,7 @@ strong {
         margin: 0;
         background-color: #fff;
     }
-    .page2 {
+    .next-page {
         page-break-before: always;
         margin-top: 40px;
     }
@@ -49,7 +49,7 @@ article {
     padding: 1em;
 }
 p {
-    margin: 0.3em 0;
+    margin: 0.7em 0;
 }
 h1 {
     font-size: 23px;
@@ -63,7 +63,7 @@ h1 {
     right: 2px;
 }
 .projects {
-
+    margin-top: 30px;
 }
 .projects p {
     color: #666;
@@ -81,6 +81,15 @@ h1 {
 }
 .projects > ol > li h3 {
     display: inline-block;
+}
+.projects .image {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+.projects .image img {
+    width: 24%;
 }
 .openSource {
 
