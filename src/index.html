@@ -5,9 +5,9 @@
   <meta name="viewport"
         content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate"/>
+  <meta http-equiv="Pragma" content="no-cache"/>
+  <meta http-equiv="Expires" content="0"/>
   <title>陈靖宇的简历</title>
   <link rel="stylesheet" href="./style.css">
 </head>
@@ -17,13 +17,22 @@
     <h1>陈靖宇</h1>
     <img src="./images/cjy.jpg" alt="头像" width="128" height="181">
     <p>
-      男 | 24岁 | 前端开发工程师 | 南京
+      男 | 25岁 | 前端开发工程师 | 南京
     </p>
     <p>
       手机：<a href="tel:12345678">17826020781</a> | 微信：<a href="images/robot.jpg">robot-90-</a> | 邮箱：<a
         href="mailto:1993456181@qq.com">1993456181@qq.com</a>
     </p>
   </section>
+
+  <section class="education">
+    <h2>教育经历</h2>
+    <p>
+      <span><time>2017年</time>~<time>2021年</time></span>
+      池州学院 机械设计制造及其自动化 <b>本科</b>
+    </p>
+  </section>
+
   <section class="jobs">
     <h2>工作经历</h2>
     <ol>
@@ -37,8 +46,17 @@
           <li style="line-height: 2em">
             主要负责<strong>APP内嵌H5页面</strong>、<strong>PC端的管理后台</strong>和<strong>微信小程序</strong>的前端开发工作
           </li>
-          <li>
-            负责给前端较弱的同事进行培训，提高其前端开发工作效率
+        </ul>
+      </li>
+      <li id="work2">
+        <header>
+          <h3> 南京时序智能科技有限公司 </h3>
+          <h4> 前端开发工程师 </h4>
+          <span><time>2022年10月</time>~<time>2022年12月</time></span>
+        </header>
+        <ul>
+          <li style="line-height: 2em">
+            主要负责<strong>PC端网页</strong>的前端开发工作
           </li>
         </ul>
       </li>
@@ -56,12 +74,14 @@
           </span>
         </header>
         <p>
-          一个基于 <strong>Vue</strong>、<strong>VueRouter</strong>、<strong>Vuex</strong>、<strong>Axios</strong>、<strong>SCSS</strong> 的购物应用。
+          一个基于 <strong>Vue</strong>、<strong>VueRouter</strong>、<strong>Vuex</strong>、<strong>Axios</strong>、<strong>SCSS</strong>
+          的购物应用。
         </p>
         <p>
           对 Axios 进行了封装，使用了<strong>拦截器</strong>，制作过程让我对 <strong>Axios</strong> 有了新的认识，
         </p>
-        <p>我将其总结成了一篇博客<a href="https://github.com/clouddawn/blog/blob/main/md/md6/211_axios.md">《axios 精进》。</a></p>
+        <p>我将其总结成了一篇博客<a href="https://github.com/clouddawn/blog/blob/main/md/md6/211_axios.md">《axios
+          精进》。</a></p>
       </li>
       <li>
         <header>
@@ -77,7 +97,7 @@
         <p>是一款基于<strong>Vue</strong>、<strong>VueRouter</strong>、<strong>Vuex</strong>、<strong>SCSS</strong>
           的移动端单页面应用。</p>
         <p>
-          实现期间遇到了很多 Vue、 <strong>webpack</strong> 方面的问题，解决过程记录在本人的<a
+          实现期间遇到了很多 Vue、 webpack 方面的问题，解决过程记录在本人的<a
             href="https://github.com/clouddawn/blog"
             target="_blank">博客</a>。
         </p>
@@ -86,12 +106,16 @@
         <header>
           <h3>会动的皮卡丘</h3>
           <span>
-                      <a href="https://github.com/clouddawn/Pikachu2.0" target="_blank">源码链接</a>
-                      <a href="http://clouddawn.top/Pikachu2.0/dist/run.html" target="_blank">项目预览</a>
-                    </span>
+            <a href="https://github.com/clouddawn/Pikachu2.0" target="_blank">源码链接</a>
+            <a href="http://clouddawn.top/Pikachu2.0/dist/run.html" target="_blank">项目预览</a>
+          </span>
         </header>
         <p>这是我在学习 <strong>CSS3和动画</strong> 时制作的一个可爱作品</p>
         <p>是一个基于CSS3、<strong>ES6</strong> 和 <strong>jQuery</strong> 的动态皮卡丘</p>
+        <p>已用<strong> Vue3</strong>、<strong>TS 重构</strong>，重构版本<a
+            href="https://github.com/clouddawn/pikachu-vue3">源码链接</a>、<a
+            href="https://clouddawn.top/pikachu-vue3/dist/index.html">项目预览</a>
+        </p>
       </li>
       <li>
         <header>
@@ -144,12 +168,14 @@
       <div id="skills"></div>
       <ul>
         <li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong></li>
-        <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、跨域、前端路由、Cookie、Session 等</li>
-        <li>熟练掌握 <strong>Vue全家桶 </strong>的使用，包括 VueCli、VueRouter、Vuex、Axios 等</li>
-        <li>熟悉 ES6，包括 let / Promise / await / 析构赋值</li>
+        <li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、前端路由、Cookie、Session 等</li>
+        <li>熟练掌握 <strong>Vue2全家桶 </strong>的使用，包括 VueCli、VueRouter、Vuex、Axios 等</li>
+        <li>熟练掌握 <strong>Vue3全家桶 </strong>的使用，包括 <strong>Composition API</strong>、<strong>Vite</strong>、VueRouter、<strong>Pinia</strong>、Axios 等</li>
+        <li>熟悉 ES6，包括 let / Promise / await / 析构赋值 / class</li>
+        <li>熟悉 TS，包括 类型声明 / 接口 / 抽象类 / 泛型</li>
         <li>了解 <strong>Webpack 的配置和优化</strong></li>
         <li>掌握 <strong>Git/GitHub</strong> 工作处理流程</li>
-        <li>善于面向 Google 及 StackOverflow 编程，有总结书写技术博客的习惯</li>
+        <li>善于面向 <strong>Google</strong>、<strong>chatgpt</strong> 及 <strong>StackOverflow</strong> 编程，有总结书写技术博客的习惯</li>
       </ul>
     </div>
   </section>
@@ -171,26 +197,21 @@
   </section>
 
 
-
   <section class="others">
     <h2>其他链接</h2>
     <ul>
-      <li><a href="https://github.com/clouddawn/blog/tree/main/md/%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95" target="_blank">我的博客</a>，目前已有 171 篇技术文章
+      <li><a href="https://github.com/clouddawn/blog/tree/main/md/%E5%8D%9A%E5%AE%A2%E7%9B%AE%E5%BD%95" target="_blank">我的博客</a>，目前已有
+        270 篇技术文章
       </li>
-      <li><a href="https://github.com/clouddawn" target="_blank">我的 GitHub</a>，过去一年有 99 次提交</li>
+      <li><a href="https://github.com/clouddawn" target="_blank">我的 GitHub</a>，过去一年有 131 次提交</li>
     </ul>
   </section>
 
-  <section class="education">
-    <h2>教育经历</h2>
-    <p>
-      <span><time>2017年</time>~<time>2021年</time></span>
-      池州学院 机械设计制造及其自动化 本科
-    </p>
-  </section>
 
 </article>
-<script src="./utils/echarts.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/echarts/dist/echarts.min.js"></script>
+
 <script src="./main.js"></script>
 </body>
 </html>
