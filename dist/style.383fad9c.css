@@ -160,6 +160,15 @@ h1 {
   width: 550px;
 }
 
+@media print {
+  .skills > .wrapper {
+    display: block;
+  }
+  .skills > .wrapper > ul {
+    width: 100%;
+  }
+}
+
 .skills > .wrapper > #skills {
 
 }
@@ -224,8 +233,13 @@ h1 {
     flex-direction: column;
   }
 
+  .skills > .wrapper > ul {
+    color: #666;
+    width: 100%;
+  }
+
   #skills {
-    width: auto;
+    width: 100vw;
   }
 
   .jobs header {
@@ -258,4 +272,4 @@ h1 {
 
 
 
-/*# sourceMappingURL=/style.e308ff8e.css.map */
+/*# sourceMappingURL=style.383fad9c.css.map */
