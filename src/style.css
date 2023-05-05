@@ -160,6 +160,15 @@ h1 {
   width: 550px;
 }
 
+@media print {
+  .skills > .wrapper {
+    display: block;
+  }
+  .skills > .wrapper > ul {
+    width: 100%;
+  }
+}
+
 .skills > .wrapper > #skills {
 
 }
@@ -222,6 +231,11 @@ h1 {
 
   .skills .wrapper {
     flex-direction: column;
+  }
+
+  .skills > .wrapper > ul {
+    color: #666;
+    width: 100%;
   }
 
   #skills {
