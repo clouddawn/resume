@@ -1,7 +1,6 @@
 {
   "name": "cv",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "git@github.com:clouddawn/resume.git",
   "author": "clouddawn <1993456181@qq.com>",
   "license": "MIT",

@@ -1,0 +1,222 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #eee;
+  margin: 20px 0;
+}
+
+a {
+  color: #888;
+  border-bottom: 1px solid;
+  text-decoration: none;
+}
+
+p, li {
+  color: #666;
+}
+
+h3, h4, h5, h6 {
+  margin: 0;
+}
+
+h4, h5, h6 {
+  font-weight: normal;
+}
+
+ol, ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+strong {
+  color: #f60;
+}
+
+@media print {
+  body {
+    background-color: #fff;
+    margin: 0;
+  }
+
+  .next-page {
+    page-break-before: always;
+    margin-top: 40px;
+  }
+
+  #skills {
+    display: none;
+  }
+}
+
+article {
+  background: #fff;
+  width: 21cm;
+  min-height: 29.7cm;
+  margin: 0 auto;
+  padding: 1em;
+  overflow: auto;
+}
+
+p {
+  margin: .7em 0;
+}
+
+h1 {
+  font-size: 23px;
+}
+
+.bio {
+  position: relative;
+}
+
+.bio img {
+  position: absolute;
+  top: -17px;
+  right: 2px;
+}
+
+.projects {
+  margin-top: 30px;
+}
+
+.projects p {
+  color: #666;
+}
+
+.projects > ol {
+  padding: 0;
+  list-style-position: inside;
+}
+
+.projects > ol > li {
+  margin-bottom: 24px;
+}
+
+.projects > ol > li > header {
+  justify-content: space-between;
+  display: flex;
+}
+
+.projects > ol > li h3 {
+  display: inline-block;
+}
+
+.projects .image {
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 100%;
+  display: flex;
+}
+
+.projects .image img {
+  width: 24%;
+}
+
+.openSource > ul > li {
+  margin-bottom: 24px;
+}
+
+.openSource header {
+  justify-content: space-between;
+  display: flex;
+}
+
+.skills > .wrapper {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+#skills {
+  width: 500px;
+  height: 270px;
+}
+
+.skills > .wrapper > ul {
+  color: #666;
+  width: 550px;
+}
+
+@media print {
+  .skills > .wrapper {
+    display: block;
+  }
+
+  .skills > .wrapper > ul {
+    width: 100%;
+  }
+}
+
+.skills > .wrapper > ul > li {
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.jobs > ol > li {
+  margin: 12px 0;
+}
+
+.jobs header {
+  color: #666;
+  margin-bottom: 12px;
+  display: flex;
+}
+
+.jobs header > h3 {
+  color: #333;
+  font-size: 18px;
+}
+
+.jobs header > h4 {
+  margin-left: 1em;
+  font-size: 18px;
+}
+
+.jobs header > span {
+  margin-left: auto;
+  font-size: 18px;
+}
+
+@media (width <= 500px) {
+  body {
+    margin: 0;
+  }
+
+  article {
+    width: auto;
+    height: auto;
+  }
+
+  .bio img {
+    display: none;
+  }
+
+  .skills .wrapper {
+    flex-direction: column;
+  }
+
+  .skills > .wrapper > ul {
+    color: #666;
+    width: 100%;
+  }
+
+  #skills {
+    width: 100vw;
+  }
+
+  .jobs header {
+    flex-direction: column;
+  }
+
+  .jobs header > h3, .jobs header > h4, .jobs header > span {
+    margin: 0;
+  }
+}
+
+#work2 {
+  margin-top: 20px;
+}
+/*# sourceMappingURL=resume.2cdaf7bc.css.map */
