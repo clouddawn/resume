@@ -25,6 +25,24 @@
 		</p>
 	</section>
 
+	<section class="skills">
+		<h2>技能</h2>
+		<div class="wrapper">
+			<ul>
+				<li><b>HTML/CSS：</b>HTML5、CSS3、Less、Sass、Scss、rem、em、vw、vh、媒体查询</li>
+				<li><b>JavaScript/TypeScript：</b>JavaScript、TypeScript、ES6+、Promise、async/await、Proxy、模块化等</li>
+				<li><b>网络请求/协议：</b>HTTP、HTTPs、TCP、IP、同源策略、跨域请求、AJAX、Axios、HTTP缓存策略</li>
+				<li><b>Vue.js：</b>Vue2、Vue3、Vue Router、Vuex/Pinia、Composition API</li>
+				<li><b>微信小程序/跨平台开发：</b>原生小程序开发、uniapp</li>
+				<li><b>可视化开发：</b>Canvas、SVG、Echarts</li>
+				<li><b>构建工具：</b>Webpack、Vite</li>
+				<li><b>源代码管理：</b>Git、Git Flow</li>
+				<li>善于面向 Google、chatgpt 及 StackOverflow 编程，有总结书写技术博客的习惯
+				</li>
+			</ul>
+		</div>
+	</section>
+
 	<section class="education">
 		<h2>教育经历</h2>
 		<p>
@@ -39,16 +57,18 @@
 			<li id="work3">
 				<header>
 					<h3> 南京一束光信息科技有限公司 </h3>
-					<h4> 前端开发工程师</h4>
+					<h4> 前端组长</h4>
 					<span><time>2023年5月</time>~<time>2025年4月</time></span>
 				</header>
 				<ul>
 					<li style="line-height: 2em">
-						使用vue3进行pc端网页开发，使用uniapp进行<strong>移动端开发</strong>
+						使用vue3进行pc端网页开发，使用uniapp进行<strong>跨平台开发（APP、小程序、H5）</strong>
 					</li>
+					<li>参与并主导了公司的多个核心项目，包括从<strong>Vue2升级至Vue3</strong>的全面技术转型，优化前端架构设计和实施</li>
 					<li style="line-height: 2em">
-						牵头<strong>制定</strong>前端开发规范，<strong>审核前端代码</strong>
+						牵头<strong>制定</strong>前端开发规范，<strong>审核前端代码</strong>，定期举办技术研讨和代码审查会，提高代码质量和团队合作效率
 					</li>
+					<li>帮助团队成员共同成长，<strong>构建前端知识库</strong>，个人也从前端工程师升至前端组长，负责团队管理工作</li>
 				</ul>
 			</li>
 			<li id="work2">
@@ -83,39 +103,49 @@
 			</li>
 		</ol>
 	</section>
-	<section class="projects">
+	<section class="projects next-page">
 		<h2>项目经历</h2>
 		<ol>
 			<li>
 				<header>
-					<h3>区划地名助手</h3>
+					<h3>区划地名助手——跨平台区划地名地址管理应用</h3>
+					<span>2024年10月~至今</span>
 				</header>
 				<p>
-					技术：<strong>uniapp</strong>、SCSS、<strong>uView</strong>、<strong>WebGIS</strong>、<strong>Leaflet</strong>
+					作为前端负责人，负责“区划地名助手”的<strong>前端架构</strong>和核心模块实现，这是一个<strong>跨平台</strong>的区划地名地址管理应用，<strong>一套代码兼容移动端APP、微信小程序和H5网页</strong>。这个应用不仅服务于单一城市，更为公司提供了一套通用的、高效的城市应用开发解决方案。通过整合现有多个模块和城市应用，可以高效维护现有10+个城市采集应用，使用户能够轻松查询全国各地的区划地名地址信息，以及进行地址信息的采集。
 				</p>
-				<p>描述：基于官方实时更新的行政区划与地名数据库，满足政务办公、公共查询、地址采集等领域的深度需求。包括<strong>微信登录</strong>、<strong>一键登录功能</strong>。</p>
-				<p>亮点：独立完成<strong>登录功能、权限设置</strong></p>
+				<p>
+					技术栈：<strong>uniapp</strong>、SCSS、uView、WebGIS、<strong>Leaflet</strong>、Vue2、Vuex、Axios
+				</p>
+				<p>技术领导：作为前端负责人，负责<strong>技术决策</strong>，包括选型、架构设计，指导和管理前端开发团队，安排任务，监督项目进度，确保按时高质量完成。</p>
+				<p>组件和Hooks封装：<strong>封装复用组件</strong>和<strong>内部Hooks工具库</strong>(如useMap，useFormData，useDebounce)，提升开发效率和代码质量</p>
+				<p>亮点：微信登录、一键登录、<strong>获取当前定位(多端)</strong>、扫码功能(多端)、<strong>底部导航设置</strong>、检查更新、权限提示与获取、<strong>城市切换</strong>。</p>
+				<p>界面适配优化：进行详尽的响应式设计和测试，确保在<strong>不同设备</strong>上页面的一致性和适配</p>
+				<p>性能优化：采用<strong>防抖、节流</strong>优化搜索框和滚动监听</p>
 			</li>
 			<li>
 				<header>
-					<h3>系统用户中心</h3>
+					<h3>系统用户中心——多系统用户统一管理系统</h3>
 				</header>
+				<p>独立负责“系统用户中心”的前端实现，这是公司所有系统的统一用户管理系统，包含用户的创建、权限分配、<strong>微信扫码登录</strong>、<strong>权限节点控制</strong>、后台系统菜单管理、用户登录情况图表等功能。</p>
 				<p>
-					技术：<strong>Vue3</strong>、<strong>TS</strong>、<strong>Element Plus</strong>
+					技术：<strong>Vue3</strong>、<strong>Pinia</strong>、Vue Router、Axios、Element Plus、<strong>Echarts</strong>、Vite、<strong>TypeScript</strong>
 				</p>
-				<p>描述：这是公司所有系统的统一用户管理系统，包含用户的创建、权限分配、关闭等功能</p>
-				<p>亮点：<strong>微信扫码登录</strong></p>
+				<p>权限管理：实现基于角色的权限管理系统，支持角色定义和权限分配，<strong>动态控制界面元素</strong>和操作权限，增强系统安全性</p>
+				<p>报表和数据分析：整合Echarts进行数据可视化，提供实时数据报表，辅助决策支持，提升管理层决策效率。</p>
 			</li>
-			<li class="next-page">
+			<li>
 				<header>
 					<h3>区划查询与调整</h3>
 				</header>
+				<p>独立负责“区划查询与调整”的前端实现，这是一个以电子地图为基础，对多级区划进行可视化管理的系统，支持区划调整方案的快速制作，参考人口、面积、GDP等各种要素辅助区划分析，快速完成多个调整方案的初稿，在线生成调整前后区划对比图。</p>
 				<p>
-					技术：Vue3、TS、Leaflet
+					技术：Vue3、Pinia、<strong>Vue Router</strong>、<strong>Axios</strong>、Element Plus、TypeScript、<strong>Leaflet</strong>
 				</p>
-				<p>描述：将电子地图与行政区划信息进行一体化管理，以电子地图为基础，实现多级区划的可视化管理和服务。支持区划调整方案的快速制作，参考人口、面积、GDP等各种要素辅助区划分析，快速完成多个调整方案的初稿，在线生成调整前后区划对比图。</p>
+				<p>统一代码规范：制定严格的<strong>Vue代码规范</strong>和最佳实践，包括组件规范、<strong>数据请求统一管理</strong>，确保团队高效协作</p>
+				<p>跨部门合作：与设计师、产品经理及后端团队紧密合作，确保前端实现符合公司目标和用户需求</p>
 			</li>
-			<li>
+			<li class="next-page">
 				<header>
 					<h3>桃子商城</h3>
 					<span>
@@ -124,29 +154,29 @@
           </span>
 				</header>
 				<p>
-					技术：<strong>Vue2</strong>、<strong>Vue Router</strong>、Vuex、<strong>Axios</strong>、SCSS、Vant
+					技术：Vue2、Vue Router、<strong>Vuex</strong>、Axios、<strong>SCSS</strong>、<strong>Vant</strong>
 				</p>
 				<p>
-					描述：桃子商城包括轮播图、<strong>商品分类展示</strong>、<strong>加入购物车</strong>、上拉加载更多等功能的购物应用。
+					描述：桃子商城包括<strong>轮播图</strong>、商品分类展示、加入购物车、<strong>上拉加载更多</strong>等功能的购物应用。
 				</p>
 				<p>
-					亮点：对 Axios 进行了封装，对 <strong>Axios</strong> 有了新的认识，将其总结成了一篇博客<a
+					亮点：对 Axios 进行了封装，对Axios有了新的认识，将其总结成了一篇博客<a
 					href="https://github.com/clouddawn/blog/blob/main/md/md6/211_axios.md">《axios
 					精进》。</a></p>
 			</li>
-			<li>
-				<header>
-					<h3>橙子记账</h3>
-					<span>
-<!--              <a href="https://github.com/clouddawn/morney-2" target="_blank">源码链接</a>-->
-<!--              <a href="https://clouddawn.gitee.io/orange-website" target="_blank">项目预览</a>-->
-            </span>
-				</header>
-				<p>技术：Vue2、Vue Router、<strong>Vuex</strong>、<strong>Scss</strong>、<strong>localStorage</strong></p>
-				<p>
-					描述：这是我从自己的需求出发，独立设计及实现的<strong>极简记账应用</strong>，包括<strong>添加标签</strong>、<strong>记账</strong>、<strong>统计</strong>等功能。
-				</p>
-			</li>
+<!--			<li>-->
+<!--				<header>-->
+<!--					<h3>橙子记账</h3>-->
+<!--					<span>-->
+<!--&lt;!&ndash;              <a href="https://github.com/clouddawn/morney-2" target="_blank">源码链接</a>&ndash;&gt;-->
+<!--&lt;!&ndash;              <a href="https://clouddawn.gitee.io/orange-website" target="_blank">项目预览</a>&ndash;&gt;-->
+<!--            </span>-->
+<!--				</header>-->
+<!--				<p>技术：Vue2、Vue Router、<strong>Vuex</strong>、<strong>Scss</strong>、<strong>localStorage</strong></p>-->
+<!--				<p>-->
+<!--					描述：这是我从自己的需求出发，独立设计及实现的<strong>极简记账应用</strong>，包括<strong>添加标签</strong>、<strong>记账</strong>、<strong>统计</strong>等功能。-->
+<!--				</p>-->
+<!--			</li>-->
 <!--			<li>-->
 <!--				<header>-->
 <!--					<h3>会动的皮卡丘</h3>-->
@@ -171,9 +201,9 @@
 <!--            <a href="https://github.com/clouddawn/mz-music">源码链接</a>-->
           </span>
 				</header>
-				<p>技术：<strong>WXML</strong>、<strong>WXSS</strong>、<strong>WXS</strong></p>
+				<p>技术：WXML、WXSS、WXS</p>
 				<p>
-					描述：梅子音乐<strong>微信小程序</strong>，包括<strong>音频播放</strong>、<strong>歌词展示</strong>、<strong>视频播放</strong>、<strong>背景播放</strong>、<strong>排行榜</strong>等功能。
+					描述：梅子音乐微信小程序，包括音频播放、歌词展示、视频播放、背景播放、排行榜等功能。
 				</p>
 				<div class="image">
 					<img src="./images/music-04.jpg" alt="">
@@ -182,63 +212,42 @@
 					<img src="./images/music-03.jpg" alt="">
 				</div>
 			</li>
-			<li class="next-page">
-				<header>
-					<h3>昆山安保</h3>
-					<h4><b>南京智链记忆信息技术有限公司(2022.03-2022.04)</b></h4>
-					<span>
-<!--            <a>源码私有</a>-->
-          </span>
-				</header>
-				<p>技术：Vu2、Vue
-					Router、<strong>Vuex</strong>、<strong>Scss</strong>、Axios、<strong>Vant</strong>、<strong>Git</strong></p>
-				<p>描述：昆山安保包括课程播放，考试答题，<strong>签到(手写签名)</strong>，<strong>阅读(PDF预览)</strong>等功能</p>
-				<p>职责：参与需求讨论，参与制定开发计划，<strong>独立负责全部前端部分的开发</strong>
-				</p>
-				<p>亮点：<strong>独立实现禁止快进功能</strong>，未播放的内容禁止快进，已播放的内容可随意拖动进度条</p>
-				<!--				<div class="image">-->
-				<!--					<img src="./images/05.png" alt="">-->
-				<!--					<img src="./images/01.png" alt="">-->
-				<!--					<img src="./images/02.png" alt="">-->
-				<!--					<img src="./images/03.png" alt="">-->
-				<!--				</div>-->
-			</li>
-			<li>
-				<header>
-					<h3>ABC电影导航</h3>
-					<span>
-<!--              <a href="https://github.com/clouddawn/ABC-nav" target="_blank">源码链接</a>-->
-<!--              <a href="http://clouddawn.top/ABC-nav/src/index.html" target="_blank">项目预览</a>-->
-            </span>
-				</header>
-				<p>技术：HTML、CSS、JS、jQuery、localStorage</p>
-				<p>
-					描述：学习 <strong>jQuery</strong>
-					之后，为了方便自己实现的极简电影导航页面,包括新增网站、<strong>保存网站</strong>、<strong>快捷键</strong>、<strong>搜索</strong>等功能。
-				</p>
-			</li>
+<!--			<li class="next-page">-->
+<!--				<header>-->
+<!--					<h3>昆山安保</h3>-->
+<!--					<h4><b>南京智链记忆信息技术有限公司(2022.03-2022.04)</b></h4>-->
+<!--					<span>-->
+<!--&lt;!&ndash;            <a>源码私有</a>&ndash;&gt;-->
+<!--          </span>-->
+<!--				</header>-->
+<!--				<p>技术：Vu2、Vue-->
+<!--					Router、<strong>Vuex</strong>、<strong>Scss</strong>、Axios、<strong>Vant</strong>、<strong>Git</strong></p>-->
+<!--				<p>描述：昆山安保包括课程播放，考试答题，<strong>签到(手写签名)</strong>，<strong>阅读(PDF预览)</strong>等功能</p>-->
+<!--				<p>职责：参与需求讨论，参与制定开发计划，<strong>独立负责全部前端部分的开发</strong>-->
+<!--				</p>-->
+<!--				<p>亮点：<strong>独立实现禁止快进功能</strong>，未播放的内容禁止快进，已播放的内容可随意拖动进度条</p>-->
+<!--				&lt;!&ndash;				<div class="image">&ndash;&gt;-->
+<!--				&lt;!&ndash;					<img src="./images/05.png" alt="">&ndash;&gt;-->
+<!--				&lt;!&ndash;					<img src="./images/01.png" alt="">&ndash;&gt;-->
+<!--				&lt;!&ndash;					<img src="./images/02.png" alt="">&ndash;&gt;-->
+<!--				&lt;!&ndash;					<img src="./images/03.png" alt="">&ndash;&gt;-->
+<!--				&lt;!&ndash;				</div>&ndash;&gt;-->
+<!--			</li>-->
+<!--			<li>-->
+<!--				<header>-->
+<!--					<h3>ABC电影导航</h3>-->
+<!--					<span>-->
+<!--&lt;!&ndash;              <a href="https://github.com/clouddawn/ABC-nav" target="_blank">源码链接</a>&ndash;&gt;-->
+<!--&lt;!&ndash;              <a href="http://clouddawn.top/ABC-nav/src/index.html" target="_blank">项目预览</a>&ndash;&gt;-->
+<!--            </span>-->
+<!--				</header>-->
+<!--				<p>技术：HTML、CSS、JS、jQuery、localStorage</p>-->
+<!--				<p>-->
+<!--					描述：学习 <strong>jQuery</strong>-->
+<!--					之后，为了方便自己实现的极简电影导航页面,包括新增网站、<strong>保存网站</strong>、<strong>快捷键</strong>、<strong>搜索</strong>等功能。-->
+<!--				</p>-->
+<!--			</li>-->
 		</ol>
-	</section>
-
-	<section class="skills">
-		<h2>技能</h2>
-		<div class="wrapper">
-			<div id="skills"></div>
-			<ul>
-				<li>熟悉页面制作技巧，能将设计稿<strong>完美还原</strong></li>
-				<li>熟悉<strong>前后端分离</strong>技术，包括 AJAX、前端路由、Cookie、Session 等</li>
-				<li>熟练掌握 <strong>Vue2全家桶 </strong>的使用，包括 VueCli、VueRouter、Vuex、Axios 等</li>
-				<li>熟练掌握 <strong>Vue3全家桶 </strong>的使用，包括 <strong>Composition API</strong>、<strong>Vite</strong>、VueRouter、<strong>Pinia</strong>、Axios
-					等
-				</li>
-				<li>熟悉 ES6，包括 let / Promise / await / 析构赋值 / class</li>
-				<li>熟悉 TS，包括 类型声明 / 接口 / 抽象类 / 泛型</li>
-				<li>了解 <strong>Webpack 的配置和优化</strong></li>
-				<li>掌握 <strong>Git/GitHub</strong> 工作处理流程</li>
-				<li>善于面向 <strong>Google</strong>、<strong>chatgpt</strong> 及 <strong>StackOverflow</strong> 编程，有总结书写技术博客的习惯
-				</li>
-			</ul>
-		</div>
 	</section>
 
 	<section class="others">

@@ -100,6 +100,14 @@ h1 {
   display: flex;
 }
 
+.projects > ol > li > header > h3 {
+  color: #000;
+}
+
+.projects > ol > li > header > span {
+  font-size: 18px;
+}
+
 .projects > ol > li h3 {
   display: inline-block;
 }
@@ -124,12 +132,6 @@ h1 {
   display: flex;
 }
 
-.skills > .wrapper {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
 #skills {
   width: 500px;
   height: 270px;
@@ -137,7 +139,6 @@ h1 {
 
 .skills > .wrapper > ul {
   color: #666;
-  width: 550px;
 }
 
 @media print {
